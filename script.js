@@ -65,4 +65,7 @@ function calculate() {
   }
 
   display.value = result
+  firstNumber = result.toString();
+  secondNumber = "";
+  operator = "";
 }
