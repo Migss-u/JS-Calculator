@@ -57,13 +57,21 @@ button {
   cursor: pointer;
 }
 
+.operators {
+  background: rgb(42, 115, 224);
+}
+
 .equal {
-  background: rgb(223, 74, 74);
+  background: rgb(32, 204, 167);
 }
 
 .clear {
-  background: rgb(235, 189, 63);
-  flex-shrink: 0;
+  background: rgb(223, 74, 74);
+  width: 140px;
+}
+
+.zero {
+  width: 140px;
 }
 
 p {

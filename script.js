@@ -31,6 +31,19 @@ function clearInput() {
   operator = ""
 }
 
+function delInput() {
+  if (secondNumber != "") {
+    secondNumber = secondNumber.slice(0, -1);
+  }
+  else if (operator != "") {
+    operator = operator.slice(0, -1);
+  }
+  else {
+    firstNumber = firstNumber.slice(0, -1);
+  }
+  display.value = firstNumber + operator + secondNumber;
+}
+
 function calculate() {
   let a = Number(firstNumber);
   let b = Number(secondNumber);

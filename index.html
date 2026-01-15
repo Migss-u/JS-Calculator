@@ -12,36 +12,36 @@
 
     <div class="buttons-container">
       <div class="buttons">
-        <button onclick="clearInput()" class="clear">AC</button>
-        <p>js calculator</p>
+        <button onclick="clearInput()" class="clear">C</button>
+        <button onclick="delInput()">DEL</button>
+        <button onclick="buttonInput('/')" class="operators">/</button>
       </div>
 
       <div class="buttons">
         <button onclick="buttonInput('7')">7</button>
         <button onclick="buttonInput('8')">8</button>
         <button onclick="buttonInput('9')">9</button>
-        <button onclick="buttonInput('/')">/</button>
+        <button onclick="buttonInput('*')" class="operators">x</button>
       </div>
 
       <div class="buttons">
         <button onclick="buttonInput('4')">4</button>
         <button onclick="buttonInput('5')">5</button>
         <button onclick="buttonInput('6')">6</button>
-        <button onclick="buttonInput('*')">x</button>
+        <button onclick="buttonInput('-')" class="operators">-</button>
       </div>
 
       <div class="buttons">
         <button onclick="buttonInput('1')">1</button>
         <button onclick="buttonInput('2')">2</button>
         <button onclick="buttonInput('3')">3</button>
-        <button onclick="buttonInput('-')">-</button>
+        <button onclick="buttonInput('+')" class="operators">+</button>
       </div>
 
       <div class="buttons">
-        <button onclick="buttonInput('0')">0</button>
+        <button onclick="buttonInput('0')" class="zero">0</button>
         <button onclick="buttonInput('.')">.</button>
         <button onclick="calculate()" class="equal">=</button>
-        <button onclick="buttonInput('+')">+</button>
       </div>
     </div>
   </div>
