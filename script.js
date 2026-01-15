@@ -48,10 +48,21 @@ function calculate() {
   let a = Number(firstNumber);
   let b = Number(secondNumber);
   
-  if (operator == "+") result = a + b;
-  if (operator == "-") result = a - b; 
-  if (operator == "*") result = a * b; 
-  if (operator == "/") result = a / b; 
+  if (operator == "+") {
+    result = a + b;
+  }
+  else if (operator == "-") {
+    result = a - b;
+  }
+  else if (operator == "*") {
+    result = a * b;
+  }
+  else if (operator == "/") {
+    result = a / b;
+  }
+  else {
+    display.value = "Error"
+  }
 
   display.value = result
 }
