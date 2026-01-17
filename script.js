@@ -45,8 +45,8 @@ function delInput() {
 }
 
 function calculate() {
-  let a = parseInt(firstNumber);
-  let b = parseInt(secondNumber);
+  let a = Number(firstNumber);
+  let b = Number(secondNumber);
   
   if (operator == "+") {
     result = a + b;
